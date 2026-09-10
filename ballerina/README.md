@@ -116,7 +116,7 @@ Before proceeding with the Quickstart, ensure you have obtained the Access Token
    }
    ```
 
-5. Store the access token securely for use in your application.
+5. Store the access token and refresh token securely for use in your application.
 
 ## Quickstart
 
