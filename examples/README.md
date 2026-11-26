@@ -2,13 +2,21 @@
 
 The `ballerinax/hubspot.events` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+| Example | Description |
+|---------|-------------|
+| [`contact_engagement_timeline`](./contact_engagement_timeline/contact_engagement_timeline.md) | Discover the account's queryable event types, then retrieve and summarise a contact's recent activity by event type. |
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+1. Refer to the [Setup guide](../ballerina/README.md#setup-guide) to obtain the Client ID, Client Secret and Refresh Token for a HubSpot app.
+
+2. For each example, create a `Config.toml` file in the example's root directory with the obtained credentials:
+
+   ```toml
+   clientId = "<Client Id>"
+   clientSecret = "<Client Secret>"
+   refreshToken = "<Refresh Token>"
+   ```
 
 ## Running an example
 
